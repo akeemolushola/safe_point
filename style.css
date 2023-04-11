@@ -1,0 +1,109 @@
+*{
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: color #9b9c9b;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.67;
+    text-align: center;
+    height: 200px;
+    position: relative;
+}
+.middle{
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    text-align: center;
+
+    background-color:  white;
+}
+.logo {
+    width: 400px;
+}
+.dem{
+    margin: 8px;
+    padding: 8px;
+    border: 1px;
+    font-family: 'lato', sans-serif;
+}
+.symbol{
+    width: 200px;
+}    
+.crop{
+    background: whitesmoke;
+    padding: 20px 100px;
+    border: 10px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: #fff;
+}
+.button{
+    background-color: #9b4f96;
+    border-radius: 20px ;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+.transfer{
+    background-color: whitesmoke;
+    padding: 20px 100px;
+    text-align: left;
+}
+.img{
+    display: flex;
+    width: 50px;
+    height: 80px;
+}
+.service{
+    background-color: whitesmoke;
+    padding: 30px 150px;
+    text-align: left;
+}
+.serve{
+    display: flex;
+    width: 50px;
+    height: 80px;
+}
+.servi{
+    display: flex;
+    width: 50px;
+    height: 80px;
+}
+.serv{
+    display: flex;
+    width: 50px;
+    height: 80px;
+}
+.help{
+    background: whitesmoke;
+    padding: 10px 50px;
+    border: 10px solid #fff;
+    border-radius: 20px;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: #fff;
+} 
+.log{
+    background-color: #9b4f96;
+    border-radius: 20px ;
+    padding: 5px 10px;
+    cursor: pointer;
+} 
+.hel{
+    background-color: antiquewhite;
+    border-radius: 20px ;
+    padding: 8px 20px;
+    cursor: pointer;
+} 
+.care{
+    background-color: #8e1ede;
+    border-radius: 20px ;
+    padding: 8px 20px;
+    cursor: pointer;
+}
